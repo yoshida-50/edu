@@ -15,6 +15,7 @@ import threading
 import time
 from urllib.parse import parse_qs
 
+
 SITE_DIR = Path(__file__).resolve().parent
 MAX_BODY = 16384
 STATUS_PATH = "/__practice_status"
